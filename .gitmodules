@@ -1,0 +1,3 @@
+[submodule "Vscode_environment/Template"]
+	path = Vscode_environment/Template
+	url = https://github.com/erichung1113/Competitive_Programming_Template.git
