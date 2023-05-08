@@ -1,19 +1,18 @@
-// ~/Library/Application\ Support/Code/User/settings.json
 {
-    "files.autoSave": "afterDelay", //隨時自動存擋
-    "explorer.confirmDelete": false, //刪除檔案不警告
-    "terminal.integrated.enableMultiLinePasteWarning": false, //terminal貼上多行不警告
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
     // "debug.onTaskErrors": "debugAnyway",
-    "security.workspace.trust.untrustedFiles": "open", //在開啟沒看過的檔案時不警告
+    "security.workspace.trust.untrustedFiles": "open", 
     // "terminal.integrated.inheritEnv": true,
-    "editor.wordBasedSuggestions": false, //關閉單字自動補全
-    "C_Cpp.errorSquiggles": "disabled", //關閉偵錯紅色波浪線
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google,  IndentWidth: 4,ColumnLimit: 0, AllowLongIfStatementsOnASingleLine: false}", //format style
-    "window.zoomLevel": 1, //放大
-    "cph.general.useShortCodeForcesName": true,  //檔名只顯示題號
-    "cph.general.saveLocation": "/Users/erichung/Desktop/C++/BuildFile",  //.bin檔位置
-    "cph.language.cpp.Args": "-std=c++20", //編譯指令參數，用c++20來編譯
-    "cph.general.menuChoices": "cpp ", //加入cf題目時自動選cpp
-    "cph.general.defaultLanguageTemplateFileLocation": "/Users/erichung/Desktop/C++/Template/init_Template.cpp", //template
-    "cph.general.defaultLanguage": "cpp" //匯入題目時自動選擇cpp
+    "editor.wordBasedSuggestions": false, 
+    "C_Cpp.errorSquiggles": "disabled", 
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google,  IndentWidth: 4,ColumnLimit: 0, AllowLongIfStatementsOnASingleLine: false}", 
+    "window.zoomLevel": 1, 
+    "cph.general.useShortCodeForcesName": true, 
+    "cph.general.saveLocation": "/tmp",
+    "cph.language.cpp.Args": "-std=c++20",
+    "cph.general.menuChoices": "cpp ",
+    "cph.general.defaultLanguageTemplateFileLocation": "/Users/erichung/Desktop/C++/Template/init_Template.cpp",
+    "cph.general.defaultLanguage": "cpp" 
 }
